@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.notice.mapper.TreplyMapper">
+  <resultMap id="BaseResultMap" type="com.notice.entity.Treply">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="comment_id" jdbcType="INTEGER" property="commentId" />
+    <result column="reply_id" jdbcType="INTEGER" property="replyId" />
+    <result column="reply_type" jdbcType="INTEGER" property="replyType" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="from_name" jdbcType="VARCHAR" property="fromName" />
+    <result column="to_name" jdbcType="VARCHAR" property="toName" />
+    <result column="r_time" jdbcType="TIMESTAMP" property="rTime" />
+  </resultMap>
+</mapper>

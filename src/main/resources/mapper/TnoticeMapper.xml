@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.notice.mapper.TnoticeMapper">
+  <resultMap id="BaseResultMap" type="com.notice.entity.Tnotice">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="tn_title" jdbcType="VARCHAR" property="tnTitle" />
+    <result column="tn_type" jdbcType="INTEGER" property="tnType" />
+    <result column="tn_content" jdbcType="VARCHAR" property="tnContent" />
+    <result column="gen_time" jdbcType="TIMESTAMP" property="genTime" />
+    <result column="tu_id" jdbcType="INTEGER" property="tuId" />
+    <result column="tu_status" jdbcType="INTEGER" property="tuStatus" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+    <result column="file" jdbcType="VARCHAR" property="file" />
+    <result column="public_time" jdbcType="TIMESTAMP" property="publicTime" />
+    <result column="views" jdbcType="INTEGER" property="views" />
+  </resultMap>
+
+</mapper>
